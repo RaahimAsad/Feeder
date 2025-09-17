@@ -23,7 +23,7 @@ public class Feeder {
         else
         {
             int eaten = (int) (Math.random() * 41) + 10;
-            eaten *= numBirds;
+            eaten *= numBirds;                            //changes
             currentFood -= eaten;
             if (currentFood < 0) currentFood = 0;
         }
